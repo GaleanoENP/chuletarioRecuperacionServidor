@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Préstamo de libros en base de datos</title>
+	</head>
+	<body>
+		<hr />
+		Insertar préstamo:<br />
+		<form action="insertaBD.py" method="get">
+			Nombre del Socio: <input type="text" name="socio"/><br />
+			Título del libro: <input type="text" name="titulo"/><br />
+			Autor del libro: <input type="text" name="autor"/><br />
+			<input type="submit" value="Crear prestamo" />
+		</form>
+		<hr />
+		Listado de préstamos: <br />
+		<form action="listadoBD.py" method="get">
+			<input type="submit" value="Listado prestamos" />
+		</form>
+		<hr/>
+	</body>
+</html>
